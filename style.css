@@ -1,0 +1,76 @@
+
+:root{
+    --bg-color: #ffffff;
+    --color: rgb(53, 171, 59);
+    --card-color: #ffffff;
+}
+
+/* Fonts ----------------------------------------------------------------------------------------------*/ 
+.font {
+    font-family: "Freude"
+  }
+
+.font {
+    font-family: "pinecone-mvb-rough2", sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--color); 
+    font-family: "Freude", sans-serif;
+    text-align: center;
+}   
+
+
+/* Navigation ----------------------------------------------------------------------------------------------*/ 
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+nav a:hover {
+    color: rgb(211, 38, 165);
+  }
+
+ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 5px 30px;
+    text-decoration: none;
+    color: var(--color); 
+    transition: color .3s , text-shadow .3s;
+}
+
+/* Main ----------------------------------------------------------------------------------------------*/ 
+main{
+    display: grid;
+    margin-top:80px;
+  }
+  
+  h1{
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    font-family: 'Freude', sans-serif;
+    font-size: 40px;
+  }
+
+
+
